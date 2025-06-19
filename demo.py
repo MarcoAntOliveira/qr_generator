@@ -21,8 +21,8 @@ canvas.pack()
 app_Label = Label(root, text="QR Code Generator", fg="blue", font= ("Arial", 30))
 canvas.create_window(200, 50, window=app_Label)
 
-name_label = Label(root, text= "Link name")
-link_label = Label(root, text= "Link")
+name_label = Label(root, text= "link")
+link_label = Label(root, text= "link copiado")
 
 canvas.create_window(200, 100, window=name_label)
 canvas.create_window(200, 160, window=link_label)
